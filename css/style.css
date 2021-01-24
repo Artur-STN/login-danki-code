@@ -1,0 +1,512 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.titulo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgb(0, 51, 102);
+
+    height: 60px;
+
+}
+
+.titulo .div_img_titulo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 1000px;
+
+}
+
+.titulo .div_img_titulo .img_titulo {
+
+    width: 200px;
+
+}
+
+.container {
+
+    background: url('/imagens/background.png') no-repeat;
+    background-size: 100%;
+
+}
+
+.container .local_login {
+
+    display: block;
+
+    padding: 1rem 2rem 0 2rem;
+
+}
+
+.container .local_login .especifi {
+    
+    background: rgba(0, 51, 102, 0.589);
+    color: white;
+
+    font-size: 1.5rem;
+    font-family: sans-serif;
+
+    width: 450px;
+    height: 250px;
+
+    margin: auto;
+    padding: 2rem;
+
+}
+
+.container .local_login .especifi ul li {
+
+    margin: 2rem 0;
+
+}
+
+.container .local_login .formulario {
+
+    background: white;
+
+    border: 5px solid gray;
+
+    width: 400px;
+    height: 550px;
+
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+
+}
+
+.container .local_login .formulario .h1 {
+
+    font-family: sans-serif;
+    font-size: 1.6rem;
+
+    margin-bottom: 1rem;
+
+}
+
+.container .local_login .formulario .p {
+
+    font-family: sans-serif;
+    font-size: 1.2rem;
+
+    margin: 0.9rem 0;
+
+    color: gray;
+
+    float: left;
+
+}
+
+.container .local_login .formulario fieldset {
+
+    border: none;
+
+}
+
+.container .local_login .formulario fieldset input {
+
+    font-size: 1.2rem;
+    color: rgb(80, 80, 80);
+
+    border: #003366 1px solid;
+
+    width: 350px;
+    height: 25px;
+
+    padding: 0.3rem 0.5rem;
+
+    outline: none;
+
+}
+
+.container .local_login .formulario fieldset input:focus {
+
+    border: red 1px solid;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+
+.container .local_login .formulario span {
+
+    color: red;
+
+}
+
+.container .local_login .formulario .campo {
+
+    width: 250px;
+    height: 70px;
+
+}
+
+.container .local_login .formulario .div_btn {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 250px;
+    height: 50px;
+
+    margin: auto;
+
+}
+
+.container .local_login .formulario .div_btn .btn {
+
+    color: white;
+    background: rgb(0, 51, 102);
+
+    border: 1px rgb(0, 34, 68) solid;
+    border-radius: 0;
+
+    font-size: 1.2rem;
+
+    width: 250px;
+    height: 50px;
+
+    outline: none;
+
+    cursor: pointer;
+
+    transition: ease-in-out 0.1s;
+
+}
+
+.container .local_login .formulario .div_btn .btn:hover {
+
+    background: white;
+    color: rgb(0, 51, 102);
+
+    border: 1px rgb(0, 34, 68) solid;
+
+}
+
+.container .local_login .formulario .div_btn .btn:focus {
+
+    background: white;
+    color: rgb(0, 51, 102);
+
+}
+
+.container .detalhes {
+
+    background: rgb(179, 179, 179);
+
+    height: 250px;
+
+    margin-top: 2rem;
+    padding: 1rem 2rem 0 2rem;
+
+}
+
+.container .detalhes .detalhes_titulo {
+
+    font-family: sans-serif;
+
+    text-align: center;
+
+    margin-bottom: 2rem;
+
+}
+
+.container .detalhes .detalhes_p {
+
+    width: 600px;
+
+    font-family: sans-serif;
+
+    text-align: justify;
+
+    margin: auto;
+
+}
+
+.container .img_seta {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container .img_seta img {
+
+    border-radius: 50%;
+
+    width: 55px;
+
+    position: relative;
+    top: -30px;
+
+    cursor: pointer;
+
+}
+
+@media (min-width: 1200px) {
+
+
+
+    .titulo {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background: rgb(0, 51, 102);
+
+        height: 60px;
+
+    }
+
+    .titulo .div_img_titulo {
+
+        width: 1000px;
+
+    }
+
+    .titulo .div_img_titulo .img_titulo {
+
+        width: 190px;
+
+    }
+
+    .container .local_login {
+
+        display: flex;
+
+        padding: 1rem 2rem 0 2rem;
+
+    }
+
+    .container .local_login .especifi {
+
+        background: rgba(0, 51, 102, 0.589);
+        color: white;
+
+        font-family: sans-serif;
+
+        width: 450px;
+        height: 250px;
+
+        margin-right: 20rem;
+        padding: 2rem;
+
+    }
+
+    .container .local_login .especifi ul li {
+
+        margin: 2rem 0;
+
+    }
+
+    .container .local_login .formulario {
+
+        background: white;
+
+        border: 5px solid gray;
+
+        position: relative;
+
+        top: -30px;
+
+        width: 400px;
+        height: 550px;
+
+        padding: 1rem;
+
+    }
+
+    .container .local_login .formulario .h1 {
+
+        font-family: sans-serif;
+        font-size: 1.6rem;
+
+        margin-bottom: 1rem;
+
+    }
+
+    .container .local_login .formulario .p {
+
+        font-family: sans-serif;
+        font-size: 1.2rem;
+
+        margin: 0.9rem 0;
+
+        color: gray;
+
+        float: left;
+
+    }
+
+    .container .local_login .formulario fieldset {
+
+        border: none;
+
+    }
+
+    .container .local_login .formulario fieldset input {
+
+        font-size: 1.2rem;
+        color: rgb(80, 80, 80);
+
+        border: #003366 1px solid;
+
+        width: 350px;
+        height: 25px;
+
+        padding: 0.3rem 0.5rem;
+
+        outline: none;
+
+    }
+
+    .container .local_login .formulario fieldset input:focus {
+
+        border: red 1px solid;
+
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+
+        -webkit-appearance: none;
+        margin: 0;
+
+    }
+
+    .container .local_login .formulario span {
+
+        color: red;
+
+    }
+
+    .container .local_login .formulario .campo {
+
+        width: 250px;
+        height: 70px;
+
+    }
+
+    .container .local_login .formulario .div_btn {
+
+        width: 250px;
+        height: 50px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: auto;
+
+    }
+
+    .container .local_login .formulario .div_btn .btn {
+
+        color: white;
+        background: rgb(0, 51, 102);
+
+        border: 1px rgb(0, 34, 68) solid;
+        border-radius: 0;
+
+        font-size: 1.2rem;
+
+        width: 250px;
+        height: 50px;
+
+        outline: none;
+
+        cursor: pointer;
+
+        transition: ease-in-out 0.1s;
+
+    }
+
+    .container .local_login .formulario .div_btn .btn:hover {
+
+        background: white;
+        color: rgb(0, 51, 102);
+
+        border: 1px rgb(0, 34, 68) solid;
+
+    }
+
+    .container .local_login .formulario .div_btn .btn:focus {
+
+        background: white;
+        color: rgb(0, 51, 102);
+
+    }
+
+    .container .detalhes {
+
+        background: rgb(179, 179, 179);
+
+        height: 250px;
+
+        padding: 1rem 2rem 0 2rem;
+
+    }
+
+    .container .detalhes .detalhes_titulo {
+
+        font-family: sans-serif;
+
+        text-align: center;
+
+        margin-bottom: 2rem;
+
+    }
+
+    .container .detalhes .detalhes_p {
+
+        width: 800px;
+
+        font-family: sans-serif;
+
+        text-align: justify;
+
+        margin: auto;
+
+    }
+
+    .container .img_seta {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .container .img_seta img {
+
+        border-radius: 50%;
+
+        width: 55px;
+
+        position: relative;
+        top: -30px;
+
+        cursor: pointer;
+
+    }
+
+
+}
